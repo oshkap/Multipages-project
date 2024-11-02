@@ -97,4 +97,18 @@
   #contact {
     margin-top: 36px;
   }
+
+  @media (max-width: 576px) {
+    p{
+      display: none;
+    }
+    
+    .primary-link {
+      display:block;
+      width: 240px;
+      margin: auto;
+      text-align: center;
+    }
+    
+  }
   
